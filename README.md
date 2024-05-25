@@ -51,6 +51,56 @@ Follow the instructions in the respective README.md file for additional configur
 
 [Grafana Documentation](https://grafana.com/docs/grafana/latest/)
 
+## Terraform Configuration Files
+
+### `output.tf`
+
+- **Description**: Defines the outputs of your infrastructure that you want to expose for external consumption or use within other Terraform projects.
+
+### `locals.tf`
+
+- **Description**: Contains local values or expressions that are used within your Terraform configuration but are not exposed as outputs.
+
+### `backend.tf`
+
+- **Description**: Specifies the backend configuration for storing Terraform state. This includes settings such as the backend type (e.g., S3, Azure Storage, Google Cloud Storage) and backend-specific configuration options.
+
+### `data.tf`
+
+- **Description**: Defines data sources that retrieve information from external systems or APIs. This can include fetching information about existing infrastructure, such as virtual networks, subnets, or IAM roles.
+
+### `security.tf`
+
+- **Description**: Contains security-related configurations, such as firewall rules, security groups, or IAM policies.
+
+### `networking.tf`
+
+- **Description**: Defines networking resources such as virtual networks, subnets, route tables, and load balancers.
+
+### `compute.tf`
+
+- **Description**: Contains configurations for compute resources like virtual machines, container instances, or serverless functions.
+
+### `storage.tf`
+
+- **Description**: Defines storage resources such as object storage buckets, block storage volumes, or databases.
+
+### `monitoring.tf`
+
+- **Description**: Contains configurations for monitoring and observability tools, such as Prometheus, Grafana, or cloud-native monitoring services provided by your cloud provider.
+
+### `logging.tf`
+
+- **Description**: Defines configurations for logging and log management solutions, such as Elasticsearch, Logstash, Kibana (ELK stack), or cloud-native logging services.
+
+### `notifications.tf`
+
+- **Description**: Contains configurations for alerting and notification services, such as PagerDuty, Slack, or cloud-native notification services provided by your cloud provider.
+
+### `deployment.tf`
+
+- **Description**: Contains configurations for deployment-related tasks, such as deploying applications using tools like Kubernetes, Docker, or AWS Elastic Beanstalk.
+
 
 ## License
 
