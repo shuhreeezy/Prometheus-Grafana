@@ -17,37 +17,34 @@ Access to your cloud provider account and appropriate permissions to create reso
 
 The project directory structure is organized as follows:
 
-prometheus-grafana/terraform/
-│
-├── aws/
-│ ├── main.tf
-│ ├── variables.tf
-│ ├── provider.tf
-│ ├── terraform.tfvars
-│ └── README.md
-│
-├── gcp/
-│ ├── main.tf
-│ ├── variables.tf
-│ ├── provider.tf
-│ ├── terraform.tfvars
-│ └── README.md
-│
-├── azure/
-│ ├── main.tf
-│ ├── variables.tf
-│ ├── provider.tf
-│ ├── terraform.tfvars
-│ └── README.md
-│
+prometheus-grafana/
+├── terraform/
+│   ├── aws/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   ├── provider.tf
+│   │   ├── terraform.tfvars
+│   │   └── README.md
+│   ├── gcp/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   ├── provider.tf
+│   │   ├── terraform.tfvars
+│   │   └── README.md
+│   └── azure/
+│       ├── main.tf
+│       ├── variables.tf
+│       ├── provider.tf
+│       ├── terraform.tfvars
+│       └── README.md
 └── README.md
 
-    AWS/, GCP/, Azure/: Directories containing infrastructure configurations for each cloud provider.
+    *AWS/, GCP/, Azure/: Directories containing infrastructure configurations for each cloud provider.
     main.tf:            Terraform configuration defining resources (e.g., VM instance, networking) for Prometheus and Grafana.
     variables.tf:       Declaration of input variables used in the Terraform configuration.
     provider.tf:        Configuration of the cloud provider credentials and settings.
     terraform.tfvars:   File containing Terraform variable values (secrets, configuration).
-    README.md:          Instructions and documentation specific to each cloud provider.
+    README.md:          Instructions and documentation specific to each cloud provider.*
 
 **Usage**
 
