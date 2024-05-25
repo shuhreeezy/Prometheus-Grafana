@@ -1,21 +1,25 @@
-**Prometheus & Grafana Blueprint** 
+## Prometheus & Grafana blueprint
+
 Welcome to the Prometheus & Grafana blueprint project! This project aims to provide a flexible and dynamic infrastructure setup for deploying Prometheus and Grafana on various cloud providers such as AWS, GCP, and Azure.
 
-**Overview**
+## Overview
+
 This blueprint project allows you to quickly deploy a monitoring and visualization stack using Prometheus and Grafana on your preferred cloud provider. The infrastructure setup is defined using Terraform configuration files, providing flexibility and portability across different cloud platforms.
 
-**Features** 
+## Features
+
 - Automated deployment of Prometheus and Grafana instances
 - Dynamic configuration based on cloud provider
 - Easily scalable and customizable
 - Supports monitoring of various metrics and data sources
 - Centralized dashboard for visualization and analysis
 
-**Prerequisites**
+## Prerequisites
+
 Before getting started, ensure you have the following prerequisites installed and configured:
-Terraform (vX.X.X or higher)
-Cloud provider CLI tools (e.g., AWS CLI, Google Cloud SDK, Azure CLI)
-Access to your cloud provider account and appropriate permissions to create resources
+- Terraform (vX.X.X or higher)
+- Cloud provider CLI tools (e.g., AWS CLI, Google Cloud SDK, Azure CLI)
+- Access to your cloud provider account and appropriate permissions to create resources
 
 ## Directory Structure
 
@@ -27,7 +31,8 @@ Access to your cloud provider account and appropriate permissions to create reso
 - **README.md**: Instructions and documentation specific to each cloud provider.
 
 
-**Usage**
+## Usage
+
 To deploy Prometheus and Grafana on your preferred cloud provider, follow these steps:
 
     1. Navigate to the directory of the desired cloud provider (aws/, gcp/, azure/).
@@ -38,7 +43,7 @@ To deploy Prometheus and Grafana on your preferred cloud provider, follow these 
 
 Follow the instructions in the respective README.md file for additional configuration and access details specific to each cloud provider.
 
-**Additional Resources** 
+## Additional Resources
     
 [Terraform Documentation](https://developer.hashicorp.com/terraform)
 
@@ -47,7 +52,7 @@ Follow the instructions in the respective README.md file for additional configur
 [Grafana Documentation](https://grafana.com/docs/grafana/latest/)
 
 
-**License**
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
