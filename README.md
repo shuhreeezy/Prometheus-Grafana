@@ -67,9 +67,9 @@ Follow the instructions in the respective README.md file for additional configur
 
 **Additional Resources** 
     
-    [Terraform Documentation](https://developer.hashicorp.com/terraform)
-    [Prometheus Documentation](https://prometheus.io/docs/introduction/overview/)
-    [Grafana Documentation](https://grafana.com/docs/grafana/latest/)
+[Terraform Documentation](https://developer.hashicorp.com/terraform)
+[Prometheus Documentation](https://prometheus.io/docs/introduction/overview/)
+[Grafana Documentation](https://grafana.com/docs/grafana/latest/)
 
 
 **License**
