@@ -7,36 +7,38 @@
 This blueprint project allows you to quickly deploy a monitoring and visualization stack using Prometheus and Grafana on your preferred cloud provider. The infrastructure setup is defined using Terraform configuration files, providing flexibility and portability across different cloud platforms.
 
 **Prerequisites** 
+
 Before getting started, ensure you have the following prerequisites installed and configured:
 Terraform (vX.X.X or higher)
 Cloud provider CLI tools (e.g., AWS CLI, Google Cloud SDK, Azure CLI)
 Access to your cloud provider account and appropriate permissions to create resources
 
 **Directory Structure** 
-    The project directory structure is organized as follows:
-Prometheus-Grafana/
- terraform/
+
+The project directory structure is organized as follows:
+
+prometheus-grafana/terraform/
 │
 ├── aws/
-│   ├── main.tf
-│   ├── variables.tf
-│   ├── provider.tf
-│   ├── terraform.tfvars
-│   └── README.md
+│ ├── main.tf
+│ ├── variables.tf
+│ ├── provider.tf
+│ ├── terraform.tfvars
+│ └── README.md
 │
 ├── gcp/
-│   ├── main.tf
-│   ├── variables.tf
-│   ├── provider.tf
-│   ├── terraform.tfvars
-│   └── README.md
+│ ├── main.tf
+│ ├── variables.tf
+│ ├── provider.tf
+│ ├── terraform.tfvars
+│ └── README.md
 │
 ├── azure/
-│   ├── main.tf
-│   ├── variables.tf
-│   ├── provider.tf
-│   ├── terraform.tfvars
-│   └── README.md
+│ ├── main.tf
+│ ├── variables.tf
+│ ├── provider.tf
+│ ├── terraform.tfvars
+│ └── README.md
 │
 └── README.md
 
