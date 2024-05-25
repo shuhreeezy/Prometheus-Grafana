@@ -35,11 +35,11 @@ Before getting started, ensure you have the following prerequisites installed an
 
 To deploy Prometheus and Grafana on your preferred cloud provider, follow these steps:
 
-    1. Navigate to the directory of the desired cloud provider (aws/, gcp/, azure/).
-    2. Initialize the Terraform workspace: `terraform init`
-    3. Review and customize the variables.tf file according to your requirements.
-    4. Provide your cloud provider credentials and other configurations in the terraform.tfvars file.
-    5. Deploy the infrastructure: `terraform apply`
+1. Navigate to the directory of the desired cloud provider (aws/, gcp/, azure/).
+2. Initialize the Terraform workspace: `terraform init`
+3. Review and customize the variables.tf file according to your requirements.
+4. Provide your cloud provider credentials and other configurations in the terraform.tfvars file.
+5. Deploy the infrastructure: `terraform apply`
 
 Follow the instructions in the respective README.md file for additional configuration and access details specific to each cloud provider.
 
